@@ -1,3 +1,109 @@
 a{
     font-size: 28px;
 }
+.device{
+    display: none;
+}
+/* Hacer mediasqueries para celulares  */
+@media only screen 
+  and (min-width: 3205px) 
+  and (max-width: 575.98px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    
+}
+@media (max-width: 375px) { 
+    .row{
+        justify-content: center;
+    }
+    .navbar-toggler{
+        width: 80%;
+        align-self: center;
+    }
+    /* .device{
+        display: inline-block;
+        width: 100%
+    }
+    .title-device{
+        align-self: center;
+    } */
+    
+
+}
+@media (max-width:320px and min-width){
+    nav{
+        justify-content: center;
+    }
+    .navbar-toggler{
+        width: 80%;
+        align-self: center;
+    }
+}
+@media (max-width: 375px) { 
+    
+    nav{
+        justify-content: center;
+    }
+    .navbar-toggler{
+        width: 80%;
+        align-self: center;
+    }
+}
+@media (max-width:320px){
+    nav{
+        justify-content: center;
+    }
+    .navbar-toggler{
+        width: 80%;
+        align-self: center;
+    }
+    
+}
+@media (max-width: 575.98px) { 
+    nav{
+        justify-content: center;
+    }
+    .navbar-toggler{
+        width: 80%;
+        align-self: center;
+    }
+  }
+  
+  /* // Small devices (landscape phones, less than 768px) */
+  @media (max-width: 767.98px) { 
+
+    /* .row{
+        justify-content: center;
+    } */
+    nav{
+        justify-content: center;
+    }
+    .navbar-toggler{
+        width: 80%;
+        align-self: center;
+    }
+     
+  }
+
+  /* samsung */
+  @media only screen and (min-width: 360px) and (max-width: 767px) { 
+    nav{
+        justify-content: center;
+    }
+    .navbar-toggler{
+        width: 80%;
+        align-self: center;
+    }
+   }
+
+/* Ipad */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+    nav{
+        justify-content: center;
+    }
+    .navbar-toggler{
+        width: 80%;
+        align-self: center;
+    }
+}

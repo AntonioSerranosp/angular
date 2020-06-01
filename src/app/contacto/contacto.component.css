@@ -17,3 +17,180 @@ textarea{
     color: aliceblue;
     background: rgba(0,0,0,0.2);
 }
+.btn{
+    border-radius: 30px;
+}
+/* Hacer mediasqueries para celulares  */
+@media only screen 
+  and (min-width: 3205px) 
+  and (max-width: 575.98px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .container{
+        height: 70vh;
+        color: aliceblue;
+        background-image: url(../../assets/medusa.jpg);
+        background-size: contain; 
+        background-repeat: no-repeat;
+        width: auto;
+        
+    }
+    p{
+        font-size: 20px;
+    }
+    form{
+        width: auto;
+        height: 60%;
+       
+    }
+    .btn{
+        width: 80%;
+        align-self: center;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 375px) { 
+    .container{
+        height: 70vh;
+        color: aliceblue;
+        background-image: url(../../assets/medusa.jpg);
+        background-size: contain; 
+        background-repeat: no-repeat;
+        width: auto;
+        
+    }
+    p{
+        font-size: 20px;
+    }
+    form{
+        width: auto;
+        height: 70%;
+       
+    }
+    .btn{
+        width: 80%;
+        align-self: center;
+        margin-bottom: 10px;
+    }
+
+}
+@media (max-width:320px and min-width){
+    .container{
+        height: 50vh;
+        color: aliceblue;
+        background-image: url(../../assets/medusa.jpg);
+        /* background-size: contain; 
+        background-repeat: no-repeat; */
+        width: auto;
+        
+    }
+    p{
+        font-size: 20px;
+    }
+    form{
+        width: auto;
+        height: 60%;
+       
+    }
+    .btn{
+        width: 80%;
+        align-self: center;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 375px) { 
+    .container{
+        height: 70vh;
+        color: aliceblue;
+        background-image: url(../../assets/medusa.jpg);
+        background-size: contain; 
+        background-repeat: no-repeat;
+        width: auto;
+        
+    }
+    p{
+        font-size: 20px;
+    }
+    form{
+        width: auto;
+        height: 70%;
+       
+    }
+    .btn{
+        width: 80%;
+        align-self: center;
+        margin-bottom: 10px;
+    }
+
+  }
+  @media (max-width:320px){
+    .container{
+        height: 70vh;
+        color: aliceblue;
+        background-image: url(../../assets/medusa.jpg);
+        background-size: contain; 
+        background-repeat: no-repeat;
+        width: auto;
+        
+    }
+    p{
+        font-size: 20px;
+    }
+    form{
+        width: auto;
+        height: 60%;
+       
+    }
+    .btn{
+        width: 80%;
+        align-self: center;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 575.98px) { 
+    .container{
+        height: 70vh;
+        color: aliceblue;
+        background-image: url(../../assets/medusa.jpg);
+        background-size: contain; 
+        background-repeat: no-repeat;
+        width: auto;
+        
+    }
+    p{
+        font-size: 20px;
+    }
+    form{
+        width: auto;
+        height: 70%;
+       
+    }
+    .btn{
+        width: 80%;
+        align-self: center;
+        margin-bottom: 10px;
+    }
+
+  }
+  
+  /* // Small devices (landscape phones, less than 768px) */
+  @media (max-width: 767.98px) { 
+    .container{
+        height: 70vh;
+        color: aliceblue;
+        background-image: url(../../assets/medusa.jpg);
+        background-size: contain; 
+        background-repeat: no-repeat;
+        width: auto;
+        
+    }
+    p{
+        font-size: 20px;
+    }
+    
+    .btn{
+        width: 80%;
+        align-self: center;
+        margin-bottom: 10px;
+    }
+     
+  }
