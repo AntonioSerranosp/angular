@@ -34,7 +34,7 @@ export class ContactoComponent implements OnInit {
       Swal.fire({
         position: 'center',
         icon: 'success',
-        title: 'Tu información se ha guardado correctamente',
+        title: 'Tu información se ha guardado correctamente!!',
         showConfirmButton: false,
         timer: 1500
       });
